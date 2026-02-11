@@ -1,0 +1,23 @@
+name: enjoy_cafe_member_web
+description: "Enjoy Cafe Member Portal Web"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # แก้ไขตรงนี้ให้ถูกต้อง
+  supabase_flutter: ^2.8.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  # หากมี assets หรือ fonts ให้ใส่ต่อท้ายตรงนี้ที่เดียว
