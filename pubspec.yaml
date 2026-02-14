@@ -9,9 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # แก้ไขตรงนี้ให้ถูกต้อง
+  # เชื่อมต่อฐานข้อมูล Supabase
   supabase_flutter: ^2.8.1
+  # ไอคอนมาตรฐานสำหรับ Flutter
   cupertino_icons: ^1.0.8
+  # จัดการรูปแบบวันที่ในหน้าประวัติ
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
@@ -20,4 +24,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # หากมี assets หรือ fonts ให้ใส่ต่อท้ายตรงนี้ที่เดียว
+
+  # การตั้งค่า Assets สำหรับ Logo ร้าน
+  assets:
+    - assets/logo.jpg
